@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>aiuvi</groupId>
+    <artifactId>aiuvi-edu-dspt</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <packaging>jar</packaging>
+
+
+    <properties>
+        <!-- encoding settings properties -->
+        <encoding.version>UTF-8</encoding.version>
+        <!-- compiler settings properties -->
+        <java_source_version>1.7</java_source_version>
+        <java_target_version>1.7</java_target_version>
+        <!-- define profile and resource path -->
+        <profiles.dir>src/main/profiles</profiles.dir>
+        <resources.dir>src/main/resources</resources.dir>
+        <!-- dependency version properties -->
+
+        <!-- slf4j log -->
+        <log4j.version>1.2.17</log4j.version>
+        <slf4j.version>1.7.5</slf4j.version>
+
+        <!-- junit version -->
+        <junit.version>4.12</junit.version>
+
+        <!-- common utils version -->
+        <google.guava.version>19.0</google.guava.version>
+        <commons-codec.version>1.9</commons-codec.version>
+        <commons-fileupload.version>1.3</commons-fileupload.version>
+        <commons-lang.version>2.6</commons-lang.version>
+        <commons-lang3.version>3.5</commons-lang3.version>
+        <commons-httpclient.version>3.1</commons-httpclient.version>
+        <apache-httpclient.version>4.3.3</apache-httpclient.version>
+
+        <!-- apache poi version -->
+        <apache.poi.version>3.9</apache.poi.version>
+        <apache.poi-ooxml.version>3.11</apache.poi-ooxml.version>
+        <apache.xbean>3.4</apache.xbean>
+
+        <!-- jdbc driver version -->
+        <mysql.jdbc.version>5.1.21</mysql.jdbc.version>
+        <sqlserver.jdbc.version>4.0</sqlserver.jdbc.version>
+
+        <!-- mybatis family version -->
+        <mybatis.mybatis.version>3.4.1</mybatis.mybatis.version>
+        <mybatis.mybatis-spring.version>1.3.0</mybatis.mybatis-spring.version>
+        <mybatis.pagehelper.version>4.1.4</mybatis.pagehelper.version>
+
+        <cglib.version>2.2</cglib.version>
+        <org.aspectj.version>1.8.6</org.aspectj.version>
+        <javax.servlet-api.version>2.5</javax.servlet-api.version>
+
+        <!-- alibaba dubbo version -->
+        <alibaba-dubbo.version>2.5.3</alibaba-dubbo.version>
+        <zookeeper.version>3.4.5</zookeeper.version>
+        <zkclient.version>0.1</zkclient.version>
+        <!-- alibaba fastjson version -->
+        <alibaba-fastjson.version>1.2.37</alibaba-fastjson.version>
+        <!-- alibaba druid version -->
+        <alibaba-druid.version>1.1.9</alibaba-druid.version>
+
+
+    </properties>
+
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${alibaba-fastjson.version}</version>
+        </dependency>
+    </dependencies>
+</project>
