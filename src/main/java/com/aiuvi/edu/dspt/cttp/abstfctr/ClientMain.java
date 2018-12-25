@@ -7,4 +7,15 @@ package com.aiuvi.edu.dspt.cttp.abstfctr;
  */
 public class ClientMain {
 	
+	public static void main(String args[]) {
+		
+		IFactory iFactory = new FactoryIntel();
+		ICPUI7 icpui7 = iFactory.createCPUI7();
+		ISSD240G issd240G = iFactory.createSSD240();
+		ISSD480G issd480G = iFactory.createSSD480();
+		
+		icpui7.show();
+		issd240G.show();
+		issd480G.show();
+	}
 }
