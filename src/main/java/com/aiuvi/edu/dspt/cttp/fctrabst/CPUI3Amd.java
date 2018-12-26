@@ -1,0 +1,13 @@
+package com.aiuvi.edu.dspt.cttp.fctrabst;
+
+/**
+ * @author ru.haibo
+ * @version v1.0.0
+ * @create 2018-12-25 19:16
+ */
+public class CPUI3Amd implements ICPUI3 {
+	
+	public void create() {
+		System.out.println("CPUI3Amd");
+	}
+}

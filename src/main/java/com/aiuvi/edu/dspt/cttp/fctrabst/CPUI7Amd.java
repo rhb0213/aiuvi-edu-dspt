@@ -1,4 +1,4 @@
-package com.aiuvi.edu.dspt.cttp.abstfctr;
+package com.aiuvi.edu.dspt.cttp.fctrabst;
 
 /**
  * @author ru.haibo
@@ -7,7 +7,7 @@ package com.aiuvi.edu.dspt.cttp.abstfctr;
  */
 public class CPUI7Amd implements ICPUI7 {
 	
-	public void show() {
+	public void create() {
 		System.out.println("CPUI7Amd");
 	}
 }

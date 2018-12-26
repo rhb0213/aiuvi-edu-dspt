@@ -1,4 +1,4 @@
-package com.aiuvi.edu.dspt.cttp.abstfctr;
+package com.aiuvi.edu.dspt.cttp.fctrabst;
 
 /**
  * @author ru.haibo
@@ -6,5 +6,5 @@ package com.aiuvi.edu.dspt.cttp.abstfctr;
  * @create 2018-12-25 19:16
  */
 public interface ICPUI7 {
-	void show();
+	void create();
 }
