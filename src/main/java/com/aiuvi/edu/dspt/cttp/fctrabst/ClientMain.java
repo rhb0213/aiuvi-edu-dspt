@@ -17,5 +17,6 @@ public class ClientMain {
 		icpui3.create();
 		icpui5.create();
 		icpui7.create();
+		icpui7.create();
 	}
 }
